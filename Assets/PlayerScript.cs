@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -15,6 +14,10 @@ public class PlayerScript : MonoBehaviour
         MovePlayer();
     }
 
+    /**
+    This method controls basic character movement, the jumping 
+    mechinism should be fixed
+    */
     void MovePlayer() {
         float movement = speed * Time.deltaTime;
 
